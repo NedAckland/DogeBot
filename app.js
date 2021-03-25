@@ -17,9 +17,11 @@ for (const folder of commandFolders) {
     }
 }
 
+
 app.connect(process.env.DOGEHOUSE_TOKEN, process.env.DOGEHOUSE_REFRESH_TOKEN).then(async () => {
     console.log('Bot connected!');
     app.rooms.join("2293ef87-2d6b-42f2-bcf9-68ee71438b1b");
+
 }).catch((e) => console.log(e))
 
 app.on('newChatMessage', message => {

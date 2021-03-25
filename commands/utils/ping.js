@@ -4,6 +4,6 @@ module.exports = {
     description: 'Ping!',
     aliases: ['p'],
     execute(client) {
-        client?.app?.bot?.sendMessage('pong').then(() => console.log('done'))
+        client?.app?.bot?.sendMessage(`pong`).then(() => console.log('done'))
     },
 };
