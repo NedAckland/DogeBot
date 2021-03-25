@@ -13,5 +13,6 @@
   "dependencies": {
     "dogehouse.js": "^2.0.1",
     "dotenv": "^8.2.0"
+
   }
 }

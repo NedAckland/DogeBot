@@ -2,7 +2,8 @@
 module.exports = {
     name: 'ping',
     description: 'Ping!',
-    execute(msg, app) {
-        app.bot.sendMessage('pong').then(r => console.log('done'))
+    aliases: ['p'],
+    execute(client) {
+        client?.app?.bot?.sendMessage('pong').then(r => console.log('done'))
     },
 };

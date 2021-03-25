@@ -28,13 +28,9 @@ app.on('newChatMessage', message => {
     const commandName = args.shift().toLowerCase();
     const command = commands.get(commandName)
     if(!command) return;
-    console.log(message)
+    const client = {commands: commands, app: app, message: message}
     try {
-        if(commandName === 'help') {
-            command.execute(commands, app)
-            return
-        }
-        command.execute(message, app)
+        command.execute(client)
     } catch (e) {
         console.log(e)
     }
