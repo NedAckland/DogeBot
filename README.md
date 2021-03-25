@@ -2,7 +2,7 @@
 ### The Botman repo
 
 
-##Setup
+## Setup
 1. Clone repo
 1. npm i
 1. Go to https://dogehouse.tv
