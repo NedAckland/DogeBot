@@ -32,7 +32,7 @@ app.on('newChatMessage', message => {
 
     const client = {commands: commands, app: app, message: message}
 
-    if(!!command) return;
+    if(!command) return;
 
     try {
         command.execute(client)
