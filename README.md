@@ -10,5 +10,5 @@
 1. Go to Application > Local Storage > dogehouse.tv
 1. Copy your token and refresh-token and put them in an .env file:
 
-DOGEHOUSE_TOKEN=<token>
-DOGEHOUSE_REFRESH_TOKEN=<refresh-token>
+DOGEHOUSE_TOKEN=your-token
+DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
