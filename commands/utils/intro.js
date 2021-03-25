@@ -1,5 +1,5 @@
 module.exports = {
-    name: 'intro',
+    name: 'hi',
     description: 'A little about me',
     aliases: ['introduce', 'i'],
     execute(client) {
