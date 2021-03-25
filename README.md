@@ -1,6 +1,7 @@
 # DogeBot
 ### The Botman repo
 
+### feel free to make a PR and grow to bot.
 
 ## Setup
 1. Clone repo
