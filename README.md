@@ -29,4 +29,4 @@ module.exports = {
 };
 3. reload the bot 
 4. test command
-# the default prefix is set in config.json, it is currently: "-" # 
+*the default prefix is set in config.json, it is currently: "-"*
