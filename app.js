@@ -20,7 +20,7 @@ for (const folder of commandFolders) {
 
 app.connect(process.env.DOGEHOUSE_TOKEN, process.env.DOGEHOUSE_REFRESH_TOKEN).then(async () => {
     console.log('Bot connected!');
-    app.rooms.join("83542f51-e0e7-47da-92a0-b34270d41846");
+    app.rooms.join("2293ef87-2d6b-42f2-bcf9-68ee71438b1b");
 }).catch((e) => console.log(e))
 
 app.on('newChatMessage', message => {
@@ -29,13 +29,12 @@ app.on('newChatMessage', message => {
     const commandName = args.shift().toLowerCase();
 
     const command = commands.get(commandName) || commands.get(getByValue(commands, commandName))
-
     const client = {commands: commands, app: app, message: message}
-
     if(!command) return;
 
     try {
-        command.execute(client)
+        console.log(app)
+        command.execute(client, args)
     } catch (e) {
         console.log(e)
     }
