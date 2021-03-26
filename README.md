@@ -5,7 +5,7 @@
 
 ## Setup
 1. Clone repo
-1. npm i
+1. run npm i in terminal
 1. Go to https://dogehouse.tv
 1. Open Developer options (F12 or Ctrl+Shift+I)
 1. Go to Application > Local Storage > dogehouse.tv
