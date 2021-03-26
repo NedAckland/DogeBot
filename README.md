@@ -18,6 +18,7 @@ DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
 ### How to add commands to the bot
 1. add folder in ./commands with your name
 2. add object 
+```javascript
 module.exports = {
     name: 'name-of-command',
     description: 'what is it , how does it work?',
@@ -27,6 +28,7 @@ module.exports = {
         client?.app?.bot?.sendMessage('send to main chat').then((response) => console.log(response)) // optional chaining is a preference
     },
 };
+```
 3. reload the bot 
 4. test command in chat. prefix: -.
 #### 
