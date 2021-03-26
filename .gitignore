@@ -116,3 +116,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+
+#
+./commands/games/soggy.js

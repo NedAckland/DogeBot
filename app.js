@@ -29,12 +29,12 @@ app.on('newChatMessage', message => {
     const commandName = args.shift().toLowerCase();
 
     const command = commands.get(commandName) || commands.get(getByValue(commands, commandName))
-    const client = {commands: commands, app: app, message: message}
+    const data = {commands: commands, app: app, message: message}
     if(!command) return;
 
     try {
         console.log(app)
-        command.execute(client, args)
+        command.execute(data, args)
     } catch (e) {
         console.log(e)
     }
