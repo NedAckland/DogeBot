@@ -17,7 +17,8 @@ DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
 
 ### How to add commands to the bot
 1. add folder in ./commands with your name
-2. add object 
+2. make a new .js file in that folder with the name of the command
+3. add object to your new file and define its execution and name
 ```javascript
 module.exports = {
     name: 'name-of-command',
