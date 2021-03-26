@@ -32,5 +32,7 @@ module.exports = {
 ```
 3. reload the bot 
 4. test command in chat. prefix: -.
-#### 
+ 
 *the default prefix is set in config.json*
+
+##
