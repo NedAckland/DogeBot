@@ -1,8 +1,6 @@
 # DogeBot
 ### The Botman repo
 
-### feel free to make a PR and grow to bot.
-
 ## Setup
 1. Clone repo
 1. run 'npm i' in terminal
@@ -36,3 +34,4 @@ module.exports = {
 *the default prefix is set in config.json*
 
 ##
+
