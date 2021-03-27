@@ -24,9 +24,9 @@ module.exports = {
     name: 'name-of-command',
     description: 'what is it , how does it work?',
     aliases: ['this', 'that],
-    execute(client) {
-        client.message.reply(['send whisper reply'], {whispered: true, mentionUser: true})
-        client?.app?.bot?.sendMessage('send to main chat').then((response) => console.log(response)) // optional chaining is a preference
+    execute(data) {
+        data.message.reply(['send whisper reply'], {whispered: true, mentionUser: true})
+        data?.app?.bot?.sendMessage('send to main chat').then((response) => console.log(response)) // optional chaining is a preference
     },
 };
 ```

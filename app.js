@@ -2,6 +2,7 @@ require("dotenv").config();
 const { Client } = require('dogehouse.js');
 const fs = require("fs");
 const { prefix } = require('./config.json');
+const getByValue = require('./common/getCommandAliases.js');
 
 const app = new Client();
 
@@ -33,17 +34,17 @@ app.on('newChatMessage', message => {
     if(!command) return;
 
     try {
-        console.log(app)
+
         command.execute(data, args)
     } catch (e) {
         console.log(e)
     }
 });
 
-function getByValue(map, searchValue) {
-    for (let [key, value] of map.entries()) {
-        if (value?.aliases?.includes(searchValue)){
-            return key;
-        }
-    }
-}
+// function getByValue(map, searchValue) {
+//     for (let [key, value] of map.entries()) {
+//         if (value?.aliases?.includes(searchValue)){
+//             return key;
+//         }
+//     }
+// }
