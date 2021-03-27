@@ -21,7 +21,7 @@ DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
 module.exports = {
     name: 'name-of-command',
     description: 'what is it , how does it work?',
-    aliases: ['this', 'that],
+    aliases: ['this', 'that'],
     execute(data) {
         data.message.reply(['send whisper reply'], {whispered: true, mentionUser: true})
         data?.app?.bot?.sendMessage('send to main chat').then((response) => console.log(response)) // optional chaining is a preference
