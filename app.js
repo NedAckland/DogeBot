@@ -34,17 +34,8 @@ app.on('newChatMessage', message => {
     if(!command) return;
 
     try {
-
         command.execute(data, args)
     } catch (e) {
         console.log(e)
     }
 });
-
-// function getByValue(map, searchValue) {
-//     for (let [key, value] of map.entries()) {
-//         if (value?.aliases?.includes(searchValue)){
-//             return key;
-//         }
-//     }
-// }
