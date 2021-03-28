@@ -1,17 +1,24 @@
 # DogeBot
 ### The Botman repo
+This is a Bot similar to a discord/slack bot, for **[Dogehouse](https://dogehouse.tv)**
+
+### [Check out the office Dogehouse Github](https://github.com/benawad/dogehouse) 
+*How to add commands is shown below*
+
 
 ## Setup
 1. Clone repo
 1. run 'npm i' in terminal
-1. Go to https://dogehouse.tv
+1. Go to **[Dogehouse](https://dogehouse.tv)**
 1. Open Developer options (F12 or Ctrl+Shift+I)
 1. Go to Application > Local Storage > dogehouse.tv
 1. Copy your token and refresh-token and put them in an .env file:
 
-DOGEHOUSE_TOKEN=your-token
-DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
+.env:
 
+        DOGEHOUSE_TOKEN=your-token 
+        DOGEHOUSE_REFRESH_TOKEN=your-refresh-token
+<hr>
 
 ### How to add commands to the bot
 1. add folder in ./commands with your name
