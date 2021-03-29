@@ -3,8 +3,8 @@
 This is a Bot similar to a discord/slack bot, for **[Dogehouse](https://dogehouse.tv)**
 
 ### [Check out the office Dogehouse Github](https://github.com/benawad/dogehouse) 
-*How to add commands is shown below*
 
+[The dogegarden API](https://github.com/dogegarden/dogehouse.js)
 
 ## Setup
 1. Clone repo
