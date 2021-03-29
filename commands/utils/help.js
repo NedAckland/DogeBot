@@ -1,4 +1,10 @@
+// this command is made to give the user details on all commands or a specific command
+// [prefix]'help commandName'
+
+// get the prefix from config.json
 const { prefix } = require('../../config.json');
+
+// get the function we used for checking command aliases
 const getByValue = require('../../common/getCommandAliases.js');
 
 module.exports = {
