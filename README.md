@@ -1,5 +1,5 @@
-# DogeBot
-### The Botman repo
+# DogeBot BoilerPlate
+### boilerplate code for creating a Dogehouse bot
 
 ## Setup
 1. Clone repo
