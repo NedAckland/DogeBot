@@ -2,7 +2,7 @@
 ### The Botman repo
 This is a Bot similar to a discord/slack bot, for **[Dogehouse](https://dogehouse.tv)**
 
-### [Check out the office Dogehouse Github](https://github.com/benawad/dogehouse) 
+### [Check out the Dogehouse Github](https://github.com/benawad/dogehouse) 
 
 [The dogegarden API](https://github.com/dogegarden/dogehouse.js)
 
